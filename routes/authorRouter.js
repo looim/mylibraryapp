@@ -7,7 +7,7 @@ const authorRouter = express.Router()
 const authorController = require('../controllers/authorController.js')
 
 //handle the GET request to get all authors
-authorRouter.get ('/',  authorController.getAllAuthors)
+authorRouter.get ('/', authorController.getAllAuthors)
 
 //handle the GET request to get all ids
 authorRouter.get ('/:authorId', authorController.getOneAuthor)
