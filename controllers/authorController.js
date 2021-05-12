@@ -22,8 +22,8 @@ const getOneAuthor = async (req, res) => {
             res.status(404)
             return res.send("Author not found") 
         }
-            return res.send(oneAuthor) // author was found 
-            
+        return res.send(oneAuthor) // author was found 
+
         } catch (err) { // error occurred
             res.status(400)
             return res.send("Database query failed") }
