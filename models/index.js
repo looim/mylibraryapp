@@ -2,7 +2,7 @@ require('dotenv').config()
 const mongoose = require("mongoose")
 
 // Connect to MongoDB - database login is retrieved from environment variables - YOU SHOULD USE YOUR OWN ATLAS CLUSTER
-MONGO_URL="mongodb+srv://looim:looizx@cluster0.jxdv6.mongodb.net/mylibraryapp?retryWrites=true&w=majority"
+MONGO_URL="mongodb+srv://looim:adminlooi@cluster0.jxdv6.mongodb.net/mylibraryapp?retryWrites=true&w=majority"
 
 // MONGO_URL = CONNECTION_STRING.replace("<username>",process.env.MONGO_USERNAME).replace("<password>",process.env.MONGO_PASSWORD)
 
